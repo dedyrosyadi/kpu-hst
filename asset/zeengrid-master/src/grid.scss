@@ -1,0 +1,49 @@
+@import "Grid/grid.scss";
+
+.page-heading {
+	text-align: center;
+	font-size: 2em;
+}
+[class*=zeen], [id*=div], [id*=nest], [class*=pushed] {
+	background: #ddd;
+	@include border-radius(2px);
+	padding: 5px;
+	text-align: center;
+	&:hover {
+		background: #aaa;
+		@include single-transition();
+	}
+}
+
+.row {
+	@include row();
+	padding: 0.5em 0;
+}
+
+
+@for $i from 1 through $columns {
+	.zeen-#{$i} { @include col($i) }
+}
+
+#custom {
+	@include row(860px);
+	padding: 0.5em 0;
+}
+#div-1 { @include col(1, 3); }
+#div-2 { @include col(2, 3); }
+#div-3, #div-4 { @include col(1, 2); }
+
+#nest { 
+	@include col(1, 3);
+	background: #999;
+}
+
+.pushed {
+	@include col(1);
+	@include push(11);
+}
+
+.pushed-2 {
+	@include col(4);
+	@include push(7);
+}

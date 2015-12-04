@@ -1,0 +1,158 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+html {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+q, blockquote {
+  quotes: none; }
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+a img {
+  border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block; }
+
+.row, #custom {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  *zoom: 1; }
+  .row:after, #custom:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .row :last-child, #custom :last-child {
+    margin-right: 0 !important; }
+
+.zeen-1, .zeen-2, .zeen-3, .zeen-4, .zeen-5, .zeen-6, .zeen-7, .zeen-8, .zeen-9, .zeen-10, .zeen-11, .zeen-12, #div-1, #div-2, #div-3, #div-4, #nest, .pushed, .pushed-2 {
+  float: left;
+  display: inline-box;
+  min-height: 1px;
+  position: relative;
+  margin-right: 1%; }
+  .zeen-1 > *, .zeen-2 > *, .zeen-3 > *, .zeen-4 > *, .zeen-5 > *, .zeen-6 > *, .zeen-7 > *, .zeen-8 > *, .zeen-9 > *, .zeen-10 > *, .zeen-11 > *, .zeen-12 > *, #div-1 > *, #div-2 > *, #div-3 > *, #div-4 > *, #nest > *, .pushed > *, .pushed-2 > * {
+    padding: 0 0.5em; }
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.page-heading {
+  /*text-align: center;*/
+  font-size: 2em; }
+
+[class*=zeen], [id*=div], [id*=nest], [class*=pushed] {
+  /*background: #F3F3F3;*/
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
+  border-radius: 2px;
+  padding: 5px;
+  /*text-align: center; */
+  }
+  [class*=zeen]:hover, [id*=div]:hover, [id*=nest]:hover, [class*=pushed]:hover {
+    /*background: #aaa;*/
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -o-transition: all 1s;
+    transition: all 1s; }
+
+.row {
+  max-width: 960px;
+  padding: 0.5em 0; }
+
+.zeen-1 {
+  width: 7.41667%; }
+
+.zeen-2 {
+  width: 15.83333%; }
+
+.zeen-3 {
+  width: 24.25%; }
+
+.zeen-4 {
+  width: 32.66667%; }
+
+.zeen-5 {
+  width: 41.08333%; }
+
+.zeen-6 {
+  width: 49.5%; }
+
+.zeen-7 {
+  width: 57.91667%; }
+
+.zeen-8 {
+  width: 66.33333%; }
+
+.zeen-9 {
+  width: 74.75%; }
+
+.zeen-10 {
+  width: 83.16667%; }
+
+.zeen-11 {
+  width: 91.58333%; }
+
+.zeen-12 {
+  width: 100%; }
+
+#custom {
+  max-width: 860px;
+  padding: 0.5em 0; }
+
+#div-1 {
+  width: 32.66667%; }
+
+#div-2 {
+  width: 66.33333%; }
+
+#div-3, #div-4 {
+  width: 49.5%; }
+
+#nest {
+  width: 32.66667%;
+  background: #999; }
+
+.pushed {
+  width: 7.41667%;
+  margin-left: 92.58333%; }
+
+.pushed-2 {
+  width: 32.66667%;
+  margin-left: 58.91667%; }
