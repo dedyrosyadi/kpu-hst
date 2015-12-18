@@ -365,7 +365,11 @@ ul#agenda .item-agenda:hover .tanggal {
 ul#agenda .item-agenda a {
   color: #737373;
 }
-/* line 296, ../scss/style.scss */
+/* line 295, ../scss/style.scss */
+ul#agenda .item-agenda a:hover {
+  text-decoration: underline;
+}
+/* line 300, ../scss/style.scss */
 ul#agenda .item-agenda .tanggal {
   -moz-transition-duration: 0.3s;
   -o-transition-duration: 0.3s;
@@ -377,17 +381,17 @@ ul#agenda .item-agenda .tanggal {
   color: #fff;
   text-align: center;
 }
-/* line 305, ../scss/style.scss */
+/* line 309, ../scss/style.scss */
 ul#agenda .item-agenda .tanggal span.tgl {
   font-size: 20px;
 }
-/* line 319, ../scss/style.scss */
+/* line 323, ../scss/style.scss */
 ul#agenda .item-agenda .judul-agenda {
   padding: 10px;
   overflow: hidden;
 }
 
-/* line 329, ../scss/style.scss */
+/* line 333, ../scss/style.scss */
 .item-pengumuman {
   padding: 10px 15px;
   background: #3F8FB5;
@@ -397,33 +401,33 @@ ul#agenda .item-agenda .judul-agenda {
   -webkit-transition-duration: 0.3s;
   transition-duration: 0.3s;
 }
-/* line 335, ../scss/style.scss */
+/* line 339, ../scss/style.scss */
 .item-pengumuman a {
   color: #fff;
 }
-/* line 340, ../scss/style.scss */
+/* line 344, ../scss/style.scss */
 .item-pengumuman:hover {
   background: #347797;
 }
 
-/* line 345, ../scss/style.scss */
+/* line 349, ../scss/style.scss */
 .widget {
   padding: 0;
   margin-bottom: 30px;
 }
 
-/* line 350, ../scss/style.scss */
+/* line 354, ../scss/style.scss */
 .wrap-content {
   padding: 20px 20px 0 20px;
   background: #f8f8f8;
 }
 
-/* line 355, ../scss/style.scss */
+/* line 359, ../scss/style.scss */
 .content {
   margin-top: 15px;
 }
 
-/* line 359, ../scss/style.scss */
+/* line 363, ../scss/style.scss */
 .title {
   color: #737373;
   border-left: 4px solid #D12122;
@@ -431,51 +435,51 @@ ul#agenda .item-agenda .judul-agenda {
   margin-bottom: 10px;
 }
 
-/* line 369, ../scss/style.scss */
+/* line 373, ../scss/style.scss */
 footer {
   color: #fff;
   border-top: 4px solid #D12122;
   background: #39393f;
   padding: 20px 0 0;
 }
-/* line 371, ../scss/style.scss */
+/* line 375, ../scss/style.scss */
 footer ul {
   padding: 0 !important;
 }
-/* line 375, ../scss/style.scss */
+/* line 379, ../scss/style.scss */
 footer ul li {
   margin-bottom: 10px;
 }
-/* line 379, ../scss/style.scss */
+/* line 383, ../scss/style.scss */
 footer ul li h4 {
   margin-bottom: 3px;
   font-weight: bold;
 }
-/* line 383, ../scss/style.scss */
+/* line 387, ../scss/style.scss */
 footer ul li h4 span {
   font-weight: normal;
 }
-/* line 395, ../scss/style.scss */
+/* line 399, ../scss/style.scss */
 footer h3 {
   font-weight: bold;
   margin-bottom: 15px;
   color: #EBA906;
 }
 
-/* line 405, ../scss/style.scss */
+/* line 409, ../scss/style.scss */
 ul#social li {
   display: inline-block;
   padding-left: 5px;
 }
-/* line 406, ../scss/style.scss */
+/* line 410, ../scss/style.scss */
 ul#social li:first-child {
   padding-left: 0;
 }
-/* line 412, ../scss/style.scss */
+/* line 416, ../scss/style.scss */
 ul#social li a {
   display: block;
 }
-/* line 417, ../scss/style.scss */
+/* line 421, ../scss/style.scss */
 ul#social li img {
   -moz-transition-duration: 0.3s;
   -o-transition-duration: 0.3s;
@@ -486,24 +490,24 @@ ul#social li img {
   max-width: 35px;
   margin-right: 30px;
 }
-/* line 424, ../scss/style.scss */
+/* line 428, ../scss/style.scss */
 ul#social li img:hover {
   opacity: 1;
 }
 
-/* line 430, ../scss/style.scss */
+/* line 434, ../scss/style.scss */
 a.link {
   padding-bottom: 8px;
   border-bottom: 1px dotted #a6a6a6;
   display: block;
   color: #fff;
 }
-/* line 437, ../scss/style.scss */
+/* line 441, ../scss/style.scss */
 a.link:hover {
   color: #e14444;
 }
 
-/* line 443, ../scss/style.scss */
+/* line 447, ../scss/style.scss */
 #cari {
   display: block;
   font-size: 14px;
@@ -512,24 +516,24 @@ a.link:hover {
   top: 8px;
 }
 
-/* line 452, ../scss/style.scss */
+/* line 456, ../scss/style.scss */
 form {
   padding: 0 !important;
 }
 
-/* line 455, ../scss/style.scss */
+/* line 459, ../scss/style.scss */
 input, textarea {
   width: 100%;
   outline: none;
   padding: 5px;
   border: 1px solid #e0e0e4;
 }
-/* line 461, ../scss/style.scss */
+/* line 465, ../scss/style.scss */
 input:focus, textarea:focus {
   border: 1px solid #EBA906;
 }
 
-/* line 468, ../scss/style.scss */
+/* line 472, ../scss/style.scss */
 button {
   color: #ffffff;
   font-size: 14px;
@@ -541,7 +545,7 @@ button {
   -webkit-transition-duration: 0.5s;
   transition-duration: 0.5s;
 }
-/* line 477, ../scss/style.scss */
+/* line 481, ../scss/style.scss */
 button:hover {
   background: #32718f;
   cursor: pointer;

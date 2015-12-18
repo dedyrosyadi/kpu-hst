@@ -291,6 +291,10 @@ ul#agenda {
 
 		a {
 			color:$hitam;
+
+			&:hover {
+				text-decoration: underline;
+			}
 		}
 
 		.tanggal {
