@@ -16,143 +16,138 @@ time, mark, audio, video {
   border: 0;
   font: inherit;
   font-size: 100%;
-  vertical-align: baseline; }
+  vertical-align: baseline;
+}
 
 html {
-  line-height: 1; }
+  line-height: 1;
+}
 
 ol, ul {
-  list-style: none; }
+  list-style: none;
+}
 
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
 
 caption, th, td {
   text-align: left;
   font-weight: normal;
-  vertical-align: middle; }
+  vertical-align: middle;
+}
 
 q, blockquote {
-  quotes: none; }
-  q:before, q:after, blockquote:before, blockquote:after {
-    content: "";
-    content: none; }
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
 
 a img {
-  border: none; }
+  border: none;
+}
 
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
-  display: block; }
+  display: block;
+}
 
-.row, #custom {
+img {
+  height: auto;
+  max-width: 100%;
+}
+
+.wrap {
+  padding: 0 15px;
   position: relative;
-  margin: 0 auto;
-  width: 100%;
-  *zoom: 1; }
-  .row:after, #custom:after {
-    content: "";
-    display: table;
-    clear: both; }
-  .row :last-child, #custom :last-child {
-    margin-right: 0 !important; }
-
-.zeen-1, .zeen-2, .zeen-3, .zeen-4, .zeen-5, .zeen-6, .zeen-7, .zeen-8, .zeen-9, .zeen-10, .zeen-11, .zeen-12, #div-1, #div-2, #div-3, #div-4, #nest, .pushed, .pushed-2 {
-  float: left;
-  display: inline-box;
-  min-height: 1px;
-  position: relative;
-  margin-right: 1%; }
-  .zeen-1 > *, .zeen-2 > *, .zeen-3 > *, .zeen-4 > *, .zeen-5 > *, .zeen-6 > *, .zeen-7 > *, .zeen-8 > *, .zeen-9 > *, .zeen-10 > *, .zeen-11 > *, .zeen-12 > *, #div-1 > *, #div-2 > *, #div-3 > *, #div-4 > *, #nest > *, .pushed > *, .pushed-2 > * {
-    padding: 0 0.5em; }
-
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
-
-.page-heading {
-  /*text-align: center;*/
-  font-size: 2em; }
-
-[class*=zeen], [id*=div], [id*=nest], [class*=pushed] {
-  /*background: #F3F3F3;*/
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  -ms-border-radius: 2px;
-  -o-border-radius: 2px;
-  border-radius: 2px;
-  padding: 5px;
-  /*text-align: center; */
-  }
-  [class*=zeen]:hover, [id*=div]:hover, [id*=nest]:hover, [class*=pushed]:hover {
-    /*background: #aaa;*/
-    -webkit-transition: all 1s;
-    -moz-transition: all 1s;
-    -o-transition: all 1s;
-    transition: all 1s; }
+  *zoom: 1;
+}
+.wrap:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
 .row {
-  max-width: 960px;
-  padding: 0.5em 0; }
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  max-width: 978px;
+  *zoom: 1;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+[class*="zeen"] {
+  float: left;
+  display: inline;
+  min-height: 1px;
+  position: relative;
+  margin-left: 3.09091%;
+}
+[class*="zeen"]:first-child {
+  margin-left: 0;
+}
 
 .zeen-1 {
-  width: 7.41667%; }
+  width: 5.5%;
+}
 
 .zeen-2 {
-  width: 15.83333%; }
+  width: 14.09091%;
+}
 
 .zeen-3 {
-  width: 24.25%; }
+  width: 22.68182%;
+}
 
 .zeen-4 {
-  width: 32.66667%; }
+  width: 31.27273%;
+}
 
 .zeen-5 {
-  width: 41.08333%; }
+  width: 39.86364%;
+}
 
 .zeen-6 {
-  width: 49.5%; }
+  width: 48.45455%;
+}
 
 .zeen-7 {
-  width: 57.91667%; }
+  width: 57.04545%;
+}
 
 .zeen-8 {
-  width: 66.33333%; }
+  width: 65.63636%;
+}
 
 .zeen-9 {
-  width: 74.75%; }
+  width: 74.22727%;
+}
 
 .zeen-10 {
-  width: 83.16667%; }
+  width: 82.81818%;
+}
 
 .zeen-11 {
-  width: 91.58333%; }
+  width: 91.40909%;
+}
 
 .zeen-12 {
-  width: 100%; }
+  width: 100%;
+}
 
-#custom {
-  max-width: 860px;
-  padding: 0.5em 0; }
-
-#div-1 {
-  width: 32.66667%; }
-
-#div-2 {
-  width: 66.33333%; }
-
-#div-3, #div-4 {
-  width: 49.5%; }
-
-#nest {
-  width: 32.66667%;
-  background: #999; }
-
-.pushed {
-  width: 7.41667%;
-  margin-left: 92.58333%; }
-
-.pushed-2 {
-  width: 32.66667%;
-  margin-left: 58.91667%; }
+@media only screen and (max-width: 767px) {
+  .row {
+    max-width: 767px;
+  }
+  .row [class*="zeen"] {
+    width: 100%;
+    margin-left: 0;
+  }
+}
