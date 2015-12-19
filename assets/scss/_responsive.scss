@@ -4,6 +4,10 @@
 			max-width: 65%;
 		}
 	}
+	
+	nav .wrap {
+		padding :0;
+	}
 	nav ul li{
 		float: none;
 		display: block;
@@ -20,9 +24,10 @@
 		float:none;
 		width: auto;
 	    padding: 15px 20px 25px 15px !important;
-	    input{
-    		right: 5px;
-	    }
+	    right : 10px;
+	    // input{
+    	// 	right: 5px;
+	    // }
 
 	}
 	footer{
@@ -37,4 +42,20 @@
 		font-size: 12px;
     	line-height: 24px;
 	}
+
+	#social {
+		img {
+			margin:0 !important;
+		}
+	}
+
+	.item-berita-terbaru {
+		img {
+			// display:none !important;
+		}
+	}
+
+
+
 }
+
