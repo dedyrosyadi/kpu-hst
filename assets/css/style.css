@@ -163,6 +163,7 @@ img {
 }
 
 a {
+  display: block;
   text-decoration: none;
   -moz-transition-duration: 0.3s;
   -o-transition-duration: 0.3s;
@@ -571,6 +572,10 @@ button:hover {
 }
 
 @media only screen and (max-width: 767px) {
+  header {
+    padding: 0 15px;
+  }
+
   .logo img {
     max-width: 65%;
   }
