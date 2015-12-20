@@ -18,34 +18,31 @@
 		</div>		
 	</header>	
 
-	<nav>
-		<div class="wrap">
-			<div class="row no-padding">					
-				<ul>
-					<li ><a class="active" href="#">Beranda</a></li>
-					<li><a href="#">Profil</a>
-						<ul>
-							<li><a href="#">Sejarah</a></li>
-							<li><a href="#">Visi dan Misi</a></li>
-							<li><a href="#">Sekretariat</a></li>
-							<li><a href="#">Struktur Organisasi</a></li>
-						</ul>
-					</li>
-					<li><a href="#">Berita</a></li>
-					<li><a href="#">Agenda</a></li>
-					<li><a href="#">Pengumuman</a></li>
-					<li><a href="#">Galeri</a></li>
-					<li><a href="kontak.html">Kontak</a></li>
-				</ul>
-
-
-				<form id="cari">
-					<input type="text" placeholder="pencarian...">
-					
-				</form>
+		<nav>
+		<div class="row no-padding">					
 			
-			</div>
-		</div>
+			<a href="#" id="resp-menu"></a>
+			<ul id="main-menu">
+				<li ><a href="index.html">Beranda</a></li>
+				<li><a href="#">Profil</a>
+					<ul>
+						<li><a href="#">Sejarah</a></li>
+						<li><a href="#">Visi dan Misi</a></li>
+						<li><a href="#">Sekretariat</a></li>
+						<li><a href="#">Struktur Organisasi</a></li>
+					</ul>
+				</li>
+				<li><a class="active" href="#">Berita</a></li>
+				<li><a href="#">Agenda</a></li>
+				<li><a href="#">Pengumuman</a></li>
+				<li><a href="#">Galeri</a></li>
+				<li><a href="detail.html">Kontak</a></li>
+			</ul>
+
+			<form id="cari">
+				<input type="text" placeholder="pencarian...">				
+			</form>		
+		</div>	
 	</nav>		
 
 	<div class="wrap">
@@ -70,7 +67,7 @@
 						<article>	
 							<img src="assets/img/img-sample.png" alt="">		
 							<span class="tanggal-post"> <i class="fa fa-calendar"></i> 03 Desember 2015</span>				
-							<h3 class="post-title"><a href="#">Judul Berita</a></h3>	
+							<h3 class="post-title"><a href="detail.html">Judul Berita</a></h3>	
 						</article>	
 
 						<article>	
@@ -309,15 +306,9 @@
 	
 	
     <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/main.js"></script>
 	<script defer src="assets/flexslider/js/jquery.flexslider.js"></script>
-	<script type="text/javascript">
-
-		$(window).load(function() {
-		  $('.flexslider').flexslider({
-		    animation: "slide"
-		  });
-		});
-    </script>	
+	
 </body>
 </html>
 

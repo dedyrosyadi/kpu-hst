@@ -162,6 +162,10 @@ img {
   padding: 0;
 }
 
+#main-menu {
+  display: none;
+}
+
 a {
   display: block;
   text-decoration: none;
@@ -266,22 +270,22 @@ nav ul li a:hover {
 }
 
 /* KONTEN */
-.item-berita-terbaru {
+.item-berita-terbaru, .detail-berita-terbaru {
   padding: 0;
 }
-.item-berita-terbaru a {
+.item-berita-terbaru a, .detail-berita-terbaru a {
   color: #32718f;
 }
-.item-berita-terbaru article {
+.item-berita-terbaru article, .detail-berita-terbaru article {
   overflow: hidden;
   padding: 0 !important;
   border-bottom: dashed 1px #d9d9d9;
   margin-bottom: 10px;
 }
-.item-berita-terbaru article:hover img {
+.item-berita-terbaru article:hover img, .detail-berita-terbaru article:hover img {
   opacity: 1;
 }
-.item-berita-terbaru article img {
+.item-berita-terbaru article img, .detail-berita-terbaru article img {
   display: block;
   -moz-transition-duration: 0.3s;
   -o-transition-duration: 0.3s;
@@ -290,24 +294,23 @@ nav ul li a:hover {
   opacity: 0.8;
   float: left;
   max-height: 80px;
-  min-height: 80px;
   margin-right: 10px;
   margin-bottom: 10px;
 }
-.item-berita-terbaru article span.tanggal-post {
+.item-berita-terbaru article span.tanggal-post, .detail-berita-terbaru article span.tanggal-post {
   overflow: hidden;
   color: #737373;
   font-size: 12px;
   margin-bottom: 5px;
   display: block;
 }
-.item-berita-terbaru article h3 {
+.item-berita-terbaru article h3, .detail-berita-terbaru article h3 {
   margin-bottom: 5px;
 }
-.item-berita-terbaru article h3:hover {
+.item-berita-terbaru article h3:hover, .detail-berita-terbaru article h3:hover {
   text-decoration: underline;
 }
-.item-berita-terbaru article h3:hover > article img {
+.item-berita-terbaru article h3:hover > article img, .detail-berita-terbaru article h3:hover > article img {
   opacity: 1;
 }
 
@@ -571,6 +574,16 @@ button:hover {
   cursor: pointer;
 }
 
+.detail-berita-terbaru img {
+  margin: 0 15px 15px 0 !important;
+  max-height: 250px !important;
+  max-width: 250px !important;
+}
+.detail-berita-terbaru p {
+  text-align: justify;
+  padding-bottom: 10px !important;
+}
+
 @media only screen and (max-width: 767px) {
   header {
     padding: 0 15px;
@@ -621,5 +634,54 @@ button:hover {
 
   #social img {
     margin: 0 !important;
+  }
+
+  nav {
+    display: block;
+  }
+  nav a {
+    padding: 15px 20px;
+    display: block;
+    color: #fff;
+  }
+  nav #resp-menu {
+    display: block;
+    background: url("../img/nav-icon.png") no-repeat center left;
+    position: relative;
+    right: -20px;
+    padding: 25px 0;
+  }
+  nav ul li {
+    float: none;
+  }
+  nav ul li a {
+    padding: 8px 20px;
+  }
+  nav ul li > ul {
+    border: none;
+    box-shadow: none;
+    display: block;
+    position: relative;
+  }
+  nav ul li > ul li {
+    border: none;
+  }
+  nav ul li > ul li > a {
+    padding: 8px 8px 8px 35px;
+    background: rgba(255, 0, 255, 0);
+  }
+  nav ul li > ul li ul {
+    position: relative;
+    left: 0;
+  }
+  nav ul li > ul li ul li > a {
+    padding: 8px 8px 8px 40px;
+  }
+
+  #cari {
+    position: absolute;
+    top: -3px;
+    width: 75%;
+    right: 0px;
   }
 }

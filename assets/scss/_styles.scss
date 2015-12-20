@@ -2,6 +2,10 @@
 	padding : 0;	
 }
 
+#main-menu {
+	display:none;
+}
+
 // GENERAL
 a { display : block; text-decoration: none; @include transition-duration (.3s); }
 p {
@@ -149,7 +153,7 @@ nav {
 
 			float:left;
 			max-height: 80px;
-			min-height: 80px;
+			// min-height: 80px;
 
 			margin-right: 10px;
 			margin-bottom: 10px;			
@@ -484,3 +488,18 @@ button {
     }
 }
 
+.detail-berita-terbaru {
+	@extend .item-berita-terbaru;
+
+	img {
+		margin: 0 15px 15px 0 !important;
+
+		max-height: 250px !important;
+		max-width : 250px !important;
+	}
+
+	p {
+		text-align: justify;
+		padding-bottom: 10px !important;
+	}
+}

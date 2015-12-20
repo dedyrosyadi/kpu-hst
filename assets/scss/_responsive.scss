@@ -60,7 +60,69 @@
 		}
 	}
 
+	nav {
+			
+		display: block;
+		
+		a {		
+			padding: 15px 20px;
+			display: block;
+			color: $putih;			
+		}
+
+		#resp-menu {
+			display: block;
+			background:url('../img/nav-icon.png') no-repeat center left;
+			position:relative;
+			right:-20px;
+		    padding : 25px 0;
+			// padding : 12px 0 15px 0;
+		}	
+
+		ul {		
+			
+			li {
+				a {
+					padding: 8px 20px;
+				}	
+
+				> ul {
+					border : none;
+					box-shadow : none;
+					display: block;
+					position: relative;
+				
+					li {
+						border: none;
+						>a {
+							padding : 8px 8px 8px 35px;
+							background: rgba(255,0,255,0);
+						}
+
+						ul {
+							li {
+								>a {
+									padding : 8px 8px 8px 40px;
+								}	
+							}
+							
+						position :relative;
+						left: 0;
+						}
+					}
+				}
+				float: none;
+			}
+		}	
+	
+	}
 
 
+	#cari {
+		position:absolute;
+	    top: -3px;
+	    width: 75%;
+	    right: 0px;
+	}
 }
 
