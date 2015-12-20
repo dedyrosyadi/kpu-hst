@@ -163,7 +163,7 @@ img {
 }
 
 #main-menu {
-  display: none;
+  display: block;
 }
 
 a {
